@@ -5,3 +5,23 @@
   margin: 0;
   border: 0;
 }
+/* font-family: 'Roboto Slab', serif;
+font-family: 'Rubik Dirt', cursive; */
+body {
+  background-color: #f0eeee;
+}
+header {
+  background: linear-gradient(
+    120deg,
+    rgb(85, 62, 72),
+    rgb(223, 106, 155),
+    rgb(78, 20, 44)
+  );
+  font-family: "Roboto Slab", serif;
+  padding: 2em;
+}
+h1 {
+  font-size: 3.7rem;
+  text-align: center;
+  color: white;
+}
