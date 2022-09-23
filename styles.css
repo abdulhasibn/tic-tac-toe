@@ -25,3 +25,19 @@ h1 {
   text-align: center;
   color: white;
 }
+
+.game_board_con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 17vh;
+}
+.game_board {
+  width: 400px;
+  height: 400px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.entry_field {
+  border: 2px solid black;
+}
